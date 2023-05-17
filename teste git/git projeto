@@ -1,0 +1,26 @@
+<!DOCTYPE html!>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <link href="default.css" rel="stylesheet" type="text/css" media="all">
+    <title>Elementos da Estrutura</title>
+</head>
+<body>
+    <div id="container">
+         <header id="cabecalho">Header</header>
+               <div id="corpo">
+                      <nav id="menu">nav</nav>
+                      <section id="artigo">
+                           <header class="cabecalho_artigo">header
+                           </header>
+                           <article class="artigo">article
+                           </article>
+                           <footer class="rodape_artigo">footer
+                           </footer>
+                       </section>
+                       <aside id="propaganda">aside</aside>
+                  </div>
+               <footer id="rodape">footer</footer>
+            </div>
+       </body>
+</html>
